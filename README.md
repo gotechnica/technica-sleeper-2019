@@ -1,2 +1,2 @@
-# technica-sleeper-2019
-Technica's 2019 Sleeper Site
+# Technica Sleeper Site 2019
+This is currently a work in progress sleeper site for Technica 2019.
