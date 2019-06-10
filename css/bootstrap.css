@@ -60,7 +60,7 @@
 }
 
 .navbar-custom {
-  background-color: #383838;
+  background-color: #09002d;
  }
 
  .ambassdor-header {
@@ -72,7 +72,7 @@
  }
 
 .technica {
-  height: 100%
+  height: 100%;
   min-width: 430px;
   max-width: 1100px;
   text-align: center;
@@ -82,6 +82,17 @@
   justify-content: center;
   align-items: center;
   background-color: #383838;
+}
+.technica-night {
+  height: 100%;
+  min-width: 430px;
+  max-width: 1100px;
+  text-align: center;
+  color: white;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 html {
@@ -99,10 +110,8 @@ body {
   padding: 0;
   font-family: 'Poppins', sans-serif;
   position: relative;
-  background-color: #2D2D2D;
   background-size: 640px;
-  background-image: url("../img/technica-background.jpg");
-  background-repeat: repeat;
+  background-color: #09002d;
 }
 
 [tabindex="-1"]:focus {
@@ -4331,6 +4340,14 @@ input[type="button"].btn-block {
   border: 1px solid transparent;
   border-radius: 0.25rem;
 }
+.navbar-toggler-custom{
+    padding: 0.25rem 0.75rem;
+  font-size: 1.25rem;
+  line-height: 1;
+  background-color: ;
+  border: 1px solid transparent;
+  border-radius: 0.25rem;
+}
 
 .navbar-toggler:hover, .navbar-toggler:focus {
   text-decoration: none;
@@ -4343,6 +4360,16 @@ input[type="button"].btn-block {
   vertical-align: middle;
   content: "";
   background: no-repeat center center;
+  background-size: 100% 100%;
+}
+
+.navbar-toggler-icon {
+  display: inline-block;
+  width: 1.5em;
+  height: 1.5em;
+  vertical-align: middle;
+  content: "";
+  background-color: no-repeat center center;
   background-size: 100% 100%;
 }
 
@@ -4653,6 +4680,16 @@ input[type="button"].btn-block {
 .navbar-dark .navbar-text a:hover, .navbar-dark .navbar-text a:focus {
   color: #fff;
 }
+
+/* change navbar-toggler inside lines color to white */
+.navbar-dark span.navbar-toggler-icon {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='white' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+}
+
+.navbar-dark .navbar-toggler {
+    border: none;
+}
+
 
 .card {
   position: relative;
@@ -10165,6 +10202,7 @@ a.text-dark:hover, a.text-dark:focus {
     border-color: #dee2e6;
   }
 }
+
 
 .technica-mobile {
   height: 0%;
