@@ -9,8 +9,7 @@ body {
 
 article.main {
   position: relative;
-  background-image: url("img/technica-background.jpg");;
-  background-repeat: repeat-y;
+    background-color:#09002d;
   height: 100vh;
   display: flex;
   justify-content: center;
