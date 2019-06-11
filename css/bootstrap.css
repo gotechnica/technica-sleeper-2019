@@ -60,7 +60,7 @@
 }
 
 .navbar-custom {
-  background-color: #09002d;
+  background-color: #464343;
  }
 
  .ambassdor-header {
@@ -110,7 +110,7 @@ body {
   font-family: 'Poppins', sans-serif;
   position: relative;
   background-size: 640px;
-  background-color: #09002d;
+  background-color: #000000;
 }
 
 [tabindex="-1"]:focus {
